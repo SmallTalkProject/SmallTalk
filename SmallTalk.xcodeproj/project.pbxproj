@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973016372166DD0D005FE4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016362166DD0D005FE4D7 /* AppDelegate.swift */; };
+		973016392166DD0D005FE4D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016382166DD0D005FE4D7 /* ViewController.swift */; };
+		9730163C2166DD0D005FE4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9730163A2166DD0D005FE4D7 /* Main.storyboard */; };
+		9730163E2166DD0D005FE4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9730163D2166DD0D005FE4D7 /* Assets.xcassets */; };
+		973016412166DD0D005FE4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9730163F2166DD0D005FE4D7 /* LaunchScreen.storyboard */; };
+		9730164C2166DD0D005FE4D7 /* SmallTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9730164B2166DD0D005FE4D7 /* SmallTalkTests.swift */; };
+		973016572166DD0D005FE4D7 /* SmallTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016562166DD0D005FE4D7 /* SmallTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		973016482166DD0D005FE4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9730162B2166DD0D005FE4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973016322166DD0D005FE4D7;
+			remoteInfo = SmallTalk;
+		};
+		973016532166DD0D005FE4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9730162B2166DD0D005FE4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973016322166DD0D005FE4D7;
+			remoteInfo = SmallTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		973016332166DD0D005FE4D7 /* SmallTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		973016362166DD0D005FE4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		973016382166DD0D005FE4D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9730163B2166DD0D005FE4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9730163D2166DD0D005FE4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973016402166DD0D005FE4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973016422166DD0D005FE4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973016472166DD0D005FE4D7 /* SmallTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9730164B2166DD0D005FE4D7 /* SmallTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTalkTests.swift; sourceTree = "<group>"; };
+		9730164D2166DD0D005FE4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973016522166DD0D005FE4D7 /* SmallTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973016562166DD0D005FE4D7 /* SmallTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTalkUITests.swift; sourceTree = "<group>"; };
+		973016582166DD0D005FE4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973016302166DD0D005FE4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973016442166DD0D005FE4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9730164F2166DD0D005FE4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9730162A2166DD0D005FE4D7 = {
+			isa = PBXGroup;
+			children = (
+				973016352166DD0D005FE4D7 /* SmallTalk */,
+				9730164A2166DD0D005FE4D7 /* SmallTalkTests */,
+				973016552166DD0D005FE4D7 /* SmallTalkUITests */,
+				973016342166DD0D005FE4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973016342166DD0D005FE4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973016332166DD0D005FE4D7 /* SmallTalk.app */,
+				973016472166DD0D005FE4D7 /* SmallTalkTests.xctest */,
+				973016522166DD0D005FE4D7 /* SmallTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973016352166DD0D005FE4D7 /* SmallTalk */ = {
+			isa = PBXGroup;
+			children = (
+				973016362166DD0D005FE4D7 /* AppDelegate.swift */,
+				973016382166DD0D005FE4D7 /* ViewController.swift */,
+				9730163A2166DD0D005FE4D7 /* Main.storyboard */,
+				9730163D2166DD0D005FE4D7 /* Assets.xcassets */,
+				9730163F2166DD0D005FE4D7 /* LaunchScreen.storyboard */,
+				973016422166DD0D005FE4D7 /* Info.plist */,
+			);
+			path = SmallTalk;
+			sourceTree = "<group>";
+		};
+		9730164A2166DD0D005FE4D7 /* SmallTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9730164B2166DD0D005FE4D7 /* SmallTalkTests.swift */,
+				9730164D2166DD0D005FE4D7 /* Info.plist */,
+			);
+			path = SmallTalkTests;
+			sourceTree = "<group>";
+		};
+		973016552166DD0D005FE4D7 /* SmallTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				973016562166DD0D005FE4D7 /* SmallTalkUITests.swift */,
+				973016582166DD0D005FE4D7 /* Info.plist */,
+			);
+			path = SmallTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973016322166DD0D005FE4D7 /* SmallTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9730165B2166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalk" */;
+			buildPhases = (
+				9730162F2166DD0D005FE4D7 /* Sources */,
+				973016302166DD0D005FE4D7 /* Frameworks */,
+				973016312166DD0D005FE4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallTalk;
+			productName = SmallTalk;
+			productReference = 973016332166DD0D005FE4D7 /* SmallTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		973016462166DD0D005FE4D7 /* SmallTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9730165E2166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalkTests" */;
+			buildPhases = (
+				973016432166DD0D005FE4D7 /* Sources */,
+				973016442166DD0D005FE4D7 /* Frameworks */,
+				973016452166DD0D005FE4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973016492166DD0D005FE4D7 /* PBXTargetDependency */,
+			);
+			name = SmallTalkTests;
+			productName = SmallTalkTests;
+			productReference = 973016472166DD0D005FE4D7 /* SmallTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		973016512166DD0D005FE4D7 /* SmallTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973016612166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalkUITests" */;
+			buildPhases = (
+				9730164E2166DD0D005FE4D7 /* Sources */,
+				9730164F2166DD0D005FE4D7 /* Frameworks */,
+				973016502166DD0D005FE4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973016542166DD0D005FE4D7 /* PBXTargetDependency */,
+			);
+			name = SmallTalkUITests;
+			productName = SmallTalkUITests;
+			productReference = 973016522166DD0D005FE4D7 /* SmallTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9730162B2166DD0D005FE4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vibhu Appalaraju";
+				TargetAttributes = {
+					973016322166DD0D005FE4D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					973016462166DD0D005FE4D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 973016322166DD0D005FE4D7;
+					};
+					973016512166DD0D005FE4D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 973016322166DD0D005FE4D7;
+					};
+				};
+			};
+			buildConfigurationList = 9730162E2166DD0D005FE4D7 /* Build configuration list for PBXProject "SmallTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9730162A2166DD0D005FE4D7;
+			productRefGroup = 973016342166DD0D005FE4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973016322166DD0D005FE4D7 /* SmallTalk */,
+				973016462166DD0D005FE4D7 /* SmallTalkTests */,
+				973016512166DD0D005FE4D7 /* SmallTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973016312166DD0D005FE4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973016412166DD0D005FE4D7 /* LaunchScreen.storyboard in Resources */,
+				9730163E2166DD0D005FE4D7 /* Assets.xcassets in Resources */,
+				9730163C2166DD0D005FE4D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973016452166DD0D005FE4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973016502166DD0D005FE4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9730162F2166DD0D005FE4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973016392166DD0D005FE4D7 /* ViewController.swift in Sources */,
+				973016372166DD0D005FE4D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973016432166DD0D005FE4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9730164C2166DD0D005FE4D7 /* SmallTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9730164E2166DD0D005FE4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973016572166DD0D005FE4D7 /* SmallTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		973016492166DD0D005FE4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 973016322166DD0D005FE4D7 /* SmallTalk */;
+			targetProxy = 973016482166DD0D005FE4D7 /* PBXContainerItemProxy */;
+		};
+		973016542166DD0D005FE4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 973016322166DD0D005FE4D7 /* SmallTalk */;
+			targetProxy = 973016532166DD0D005FE4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9730163A2166DD0D005FE4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9730163B2166DD0D005FE4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9730163F2166DD0D005FE4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973016402166DD0D005FE4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973016592166DD0D005FE4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9730165A2166DD0D005FE4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9730165C2166DD0D005FE4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9730165D2166DD0D005FE4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9730165F2166DD0D005FE4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallTalk.app/SmallTalk";
+			};
+			name = Debug;
+		};
+		973016602166DD0D005FE4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallTalk.app/SmallTalk";
+			};
+			name = Release;
+		};
+		973016622166DD0D005FE4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmallTalk;
+			};
+			name = Debug;
+		};
+		973016632166DD0D005FE4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SmallTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibhuappalaraju.SmallTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmallTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9730162E2166DD0D005FE4D7 /* Build configuration list for PBXProject "SmallTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973016592166DD0D005FE4D7 /* Debug */,
+				9730165A2166DD0D005FE4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9730165B2166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9730165C2166DD0D005FE4D7 /* Debug */,
+				9730165D2166DD0D005FE4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9730165E2166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9730165F2166DD0D005FE4D7 /* Debug */,
+				973016602166DD0D005FE4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973016612166DD0D005FE4D7 /* Build configuration list for PBXNativeTarget "SmallTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973016622166DD0D005FE4D7 /* Debug */,
+				973016632166DD0D005FE4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9730162B2166DD0D005FE4D7 /* Project object */;
+}
