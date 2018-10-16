@@ -12,7 +12,6 @@ Time spent:  hours spent in total
 
 The following **required** functionality is complete:
 
-- [ ] Homescreen with user login.
 - [ ] Add terms and conditions page (one time only).
 - [ ] Guest access Phase 1.
 - [ ] Joins chat server based off location.
