@@ -12,20 +12,20 @@ Time spent:  hours spent in total
 
 The following **required** functionality is complete:
 
-- [] Homescreen with user login.
-- [] Add terms and conditions page (one time only).
-- [] Guest access Phase 1.
-- [] Joins chat server based off location.
-- [] User is able to chat with others on server.
-- [] Autolayout on all screens.
+- [ ] Homescreen with user login.
+- [ ] Add terms and conditions page (one time only).
+- [ ] Guest access Phase 1.
+- [ ] Joins chat server based off location.
+- [ ] User is able to chat with others on server.
+- [ ] Autolayout on all screens.
 
 
 The following **optional** features are implemented:
 
-- [] User id access phase 2.
-- [] Can save chats associated with user id.
-- [] Settings page.
-- [] My chats page.
+- [ ] User id access phase 2.
+- [ ] Can save chats associated with user id.
+- [ ] Settings page.
+- [ ] My chats page.
 
 ## Video Walkthrough 
 
