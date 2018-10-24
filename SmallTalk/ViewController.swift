@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func testButton(_ sender: Any) {
-            performSegue(withIdentifier: "test", sender: nil)
+            performSegue(withIdentifier: "test", sender: self)
     }
     
     
