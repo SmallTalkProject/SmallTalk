@@ -17,6 +17,7 @@
 		973016572166DD0D005FE4D7 /* SmallTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016562166DD0D005FE4D7 /* SmallTalkUITests.swift */; };
 		C97E49CAA20D61114B730402 /* Pods_SmallTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BBB1A08FF2A957CFE2F3E9 /* Pods_SmallTalk.framework */; };
 		E9967863217FF65400D39B2C /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9967862217FF65400D39B2C /* chatViewController.swift */; };
+		E9967865218294E400D39B2C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9967864218294E400D39B2C /* LoginViewController.swift */; };
 		FD2AB41CA941AA22DD879BA6 /* Pods_SmallTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F666FF1B027E0E8275363604 /* Pods_SmallTalkUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		D8BBB1A08FF2A957CFE2F3E9 /* Pods_SmallTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4A345C1185BCA23E75D5BC /* Pods-SmallTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmallTalkTests/Pods-SmallTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9967862217FF65400D39B2C /* chatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		E9967864218294E400D39B2C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F666FF1B027E0E8275363604 /* Pods_SmallTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmallTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				973016362166DD0D005FE4D7 /* AppDelegate.swift */,
 				973016382166DD0D005FE4D7 /* ViewController.swift */,
 				E9967862217FF65400D39B2C /* chatViewController.swift */,
+				E9967864218294E400D39B2C /* LoginViewController.swift */,
 				9730163A2166DD0D005FE4D7 /* Main.storyboard */,
 				9730163D2166DD0D005FE4D7 /* Assets.xcassets */,
 				9730163F2166DD0D005FE4D7 /* LaunchScreen.storyboard */,
@@ -307,15 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SmallTalkTests-checkManifestLockResult.txt",
 			);
@@ -329,15 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SmallTalkUITests-checkManifestLockResult.txt",
 			);
@@ -351,16 +346,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SmallTalk/Pods-SmallTalk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
@@ -375,15 +366,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SmallTalk-checkManifestLockResult.txt",
 			);
@@ -399,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9967865218294E400D39B2C /* LoginViewController.swift in Sources */,
 				E9967863217FF65400D39B2C /* chatViewController.swift in Sources */,
 				973016392166DD0D005FE4D7 /* ViewController.swift in Sources */,
 				973016372166DD0D005FE4D7 /* AppDelegate.swift in Sources */,
