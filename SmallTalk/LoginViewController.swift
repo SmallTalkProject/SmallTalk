@@ -14,8 +14,21 @@ class LoginViewController: UIViewController {
     @IBAction func onGuestTap(_ sender: Any) {
         let newUser = PFUser()
         
+        var usernameList = ["apple", "pear", "orange", "mango", "orange", "peach", "pineapple", "blueberry", "strawberry", "banana", "kiwi", "avocado", "grape", "watermelon", "cherry", "lemon"]
+        
         //set user properties
-        newUser.username = "vibs"
+        
+        // Generate a random index
+        let randomIndex = Int(arc4random_uniform(UInt32(usernameList.count)))
+        // Get a random item
+        let randomItem = usernameList[randomIndex]
+        
+        newUser.username = randomItem
+        print(randomItem)
+        
+        if let index = usernameList.index(of: newUser.username!) {
+            usernameList.remove(at: index)
+        }
         
         //newUser.email = emailField.text
         newUser.password = "smalltalk"
