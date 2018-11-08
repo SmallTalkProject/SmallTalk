@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
     @IBAction func onGuestTap(_ sender: Any) {
         let newUser = PFUser()
         
-        var usernameList = ["apple", "pear", "orange", "mango", "orange", "peach", "pineapple", "blueberry", "strawberry", "banana", "kiwi", "avocado", "grape", "watermelon", "cherry", "lemon"]
+        var usernameList = ["apple", "pear", "guava", "mango", "orange", "peach", "pineapple", "blueberry", "strawberry", "banana", "kiwi", "avocado", "grape", "watermelon", "cherry", "lemon"]
         
         //set user properties
         
