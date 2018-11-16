@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		119243E91E2564D4A4CB47C2 /* Pods_SmallTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC4C45D2376F63A878A5517 /* Pods_SmallTalkTests.framework */; };
+		971AF00F219BA7D300DAA0ED /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971AF00E219BA7D200DAA0ED /* ChatCell.swift */; };
 		973016372166DD0D005FE4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016362166DD0D005FE4D7 /* AppDelegate.swift */; };
 		973016392166DD0D005FE4D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973016382166DD0D005FE4D7 /* ViewController.swift */; };
 		9730163C2166DD0D005FE4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9730163A2166DD0D005FE4D7 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		75026771746DB0580C21C612 /* Pods-SmallTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmallTalk/Pods-SmallTalk.release.xcconfig"; sourceTree = "<group>"; };
 		782A07C3108F459040782BB9 /* Pods-SmallTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmallTalkUITests/Pods-SmallTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DABD7A8E315EAC6A989A4F9 /* Pods-SmallTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmallTalk/Pods-SmallTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		971AF00E219BA7D200DAA0ED /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		973016332166DD0D005FE4D7 /* SmallTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973016362166DD0D005FE4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		973016382166DD0D005FE4D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				9730163D2166DD0D005FE4D7 /* Assets.xcassets */,
 				9730163F2166DD0D005FE4D7 /* LaunchScreen.storyboard */,
 				973016422166DD0D005FE4D7 /* Info.plist */,
+				971AF00E219BA7D200DAA0ED /* ChatCell.swift */,
 			);
 			path = SmallTalk;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				E9967865218294E400D39B2C /* LoginViewController.swift in Sources */,
 				E9967863217FF65400D39B2C /* chatViewController.swift in Sources */,
 				973016392166DD0D005FE4D7 /* ViewController.swift in Sources */,
+				971AF00F219BA7D300DAA0ED /* ChatCell.swift in Sources */,
 				973016372166DD0D005FE4D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
